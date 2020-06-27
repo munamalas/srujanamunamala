@@ -4,6 +4,7 @@
     margin-top: 60px;
     margin-left: auto;
     margin-right: auto;
+    margin-bottom: 60px;
     width: 50%;
 }
 
@@ -21,14 +22,7 @@
     font-size: 100px;
     color: #FFFFFF;
 }
-/*text*/
-.title{
-    text-align: center;
-    margin-top: 15px;
-    font-family: 'Montserrat', sans-serif;
-    font-size: 70px;
-    color: #FFFFFF;
-}
+
 /*Media Queries*/
 @media only screen and (max-width: 900px){
     .photo{
@@ -39,6 +33,14 @@
     }
     .aboutmetitle{
         font-size: 80px;
+        color: #FFFFFF;
+    }
+    .aboutme{
+        position: relative;
+        text-align: center;
+        margin: 5px;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 20px;
         color: #FFFFFF;
     }
 }
