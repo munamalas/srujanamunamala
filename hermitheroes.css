@@ -1,0 +1,84 @@
+/*heading*/
+.subheading{
+    text-align: center;
+    margin: 40px;
+    font-family: 'Rubik', sans-serif;
+    font-size: 30px;
+    color: white;
+}
+.hermitheroes{
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 15px;
+    font-size: 70px;
+    color: white;
+}
+/*text*/
+.description{
+    text-align: center;
+    margin: 40px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 25px;
+    color: white;
+}
+.loadingdescription{
+    text-align: center;
+    margin: 40px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 25px;
+    color: white;
+}
+.onboarddescription{
+    text-align: center;
+    margin: 40px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 25px;
+    color: white;
+}
+.about{
+    margin: 40px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 25px;
+    color: white;
+}
+.maindescription{
+    text-align: center;
+    margin: 40px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 25px;
+    color: white;
+}
+.profiledescription{
+    text-align: center;
+    margin: 40px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 25px;
+    color: white;
+}
+.styleguidedescription{
+    text-align: center;
+    margin: 40px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 25px;
+    color: white;
+}
+/*images*/
+.load{
+    margin: 80px;
+}
+.onboard{
+    margin: 80px;
+}
+.main{
+    margin: 80px;
+}
+.profile{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.styleguide{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}

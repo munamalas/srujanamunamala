@@ -1,0 +1,20 @@
+/*text*/
+.about{
+    text-align: center;
+    margin: 40px;
+}
+
+.contactdescription{
+    position: relative;;
+    text-align: right;
+    font-size: 38px;
+}
+
+
+/*image*/
+.center{
+  position: relative;
+  left: 9150px;
+  margin: 0 auto;
+
+}

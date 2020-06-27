@@ -1,0 +1,192 @@
+/*heading*/
+.edd{
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 15px;
+    font-size: 70px;
+    color: white;
+}
+.subheading{
+    text-align: center;
+    margin: 40px;
+    font-family: 'Rubik', sans-serif;
+    font-size: 30px;
+    color: white;
+}
+
+.about{
+    text-align: center;
+    margin: 40px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 25px;
+    color: white;
+}
+.CJPD{
+    text-align: center;
+    margin: 40px;
+    font-family: 'Rubik' sans-serif;
+    font-size: 30px;
+    color: white;
+}
+.finalscreens{
+    text-align: center;
+    margin: 40px;
+    font-family: 'Rubik', sans-serif;
+    font-size: 30px;
+    color: white;
+}
+.navscreens{
+    text-align: center;
+    margin: 40px;
+    font-size: 30px;
+    color: white;
+}
+.iosscreens{
+    text-align: center;
+    margin: 40px;
+    font-size: 30px;
+    color: white;
+}
+.styleguide{
+    text-align: center;
+    margin: 40px;
+    font-size: 30px;
+    color: white;
+}
+/*captions*/
+.description{
+    text-align: center;
+    margin: 40px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 25px;
+    color: white;
+}
+.research{
+    text-align: center;
+    margin: 40px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 25px;
+    color: white;
+}
+.jobs{
+    text-align: center;
+    margin: 40px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 25px;
+    color: white;
+}
+.homescreen{
+    text-align: center;
+    margin: 40px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 25px;
+    color: white;
+}
+.jobdescription{
+   position: relative;
+   text-align: center;
+   margin: 40px;
+   font-family: 'Montserrat', sans-serif;
+   font-size: 25px;
+   color: white;
+}
+.navdescription{
+    text-align: center;
+    margin: 40px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 25px;
+    color: white;
+}
+.iosdescription{
+    text-align: center;
+    margin: 40px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 25px;
+    color: white;
+}
+.styleguidedescription{
+    text-align: center;
+    margin: 40px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 25px;
+    color: white;
+}
+/*images*/
+.guide{
+    width: 25%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.screenshot{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+}
+.jobpic{
+    width: 25%;
+    margin: 60px;  
+}
+.nav{
+    width: 35%;
+    margin: 60px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.ios{
+    width: 25%;
+    margin: 60px;
+}
+.center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+/*Media Queries*/
+@media only screen and (max-width: 900px){
+    .screenshot{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+        position: relative;
+    }
+    .jobpic{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 80%;
+        position: relative;
+    }
+    .nav{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 80%;
+        position: relative;
+    }
+    .ios{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 80%;
+        position: relative;
+    }
+    .guide{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 80%;
+        position: relative;
+    }
+}
+
+
+
+
+
+

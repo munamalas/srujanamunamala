@@ -1,0 +1,41 @@
+/*image*/
+.photo{
+    display: block;
+    margin-top: 60px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.aboutme{
+    text-align: center;
+    font-size: 25px;
+    margin: 100px;
+    font-family: 'Montserrat', sans-serif;
+}
+.aboutmetitle{
+    text-align: center;
+    margin: 40px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 100px;
+}
+/*text*/
+.title{
+    text-align: center;
+    margin-top: 15px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 70px;
+}
+/*Media Queries*/
+@media only screen and (max-width: 900px){
+    .photo{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 60%;
+    }
+    .aboutmetitle{
+        font-size: 80px;
+    }
+}
+

@@ -1,0 +1,101 @@
+/*heading*/
+.eoc{
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    margin-top: 15px;
+    font-size: 70px;
+    color: white;
+}
+.subheading{
+    text-align: center;
+    margin: 40px;
+    font-family: 'Rubik', sans-serif;
+    font-size: 30px;
+    color: white;
+}
+.styleguide{
+    text-align: center;
+    margin: 40px;
+    font-family: 'Rubik', sans-serif;
+    font-size: 30px;
+    color: white;
+}
+/*text*/
+.description{
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 25px;
+    color: white;
+}
+.about{
+    text-align: center;
+    margin: 40px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 25px;
+    color: white;
+}
+.volunteerdescription{
+    text-align: center;
+    margin: 40px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 25px;
+    color: white;
+}
+.feedhooddescription{
+    text-align: center;
+    margin: 40px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 25px;
+    color: white;
+}
+.styleguidedescription{
+    text-align: center;
+    margin: 40px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 25px;
+    color: white;
+}
+/*images*/
+.volunteer{
+    width: 45%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.feedhood{
+    width: 15%;
+    margin: 75px;
+}
+.styleguide{
+    width: 75%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*Media Queries*/
+@media only screen and (max-width: 900px){
+    .volunteer{
+        display: block;
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .feedhood{
+        display: block;
+        width: 60%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .styleguide{
+        display: block;
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+
+
+
+
