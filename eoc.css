@@ -1,6 +1,6 @@
 /*heading*/
 .eoc{
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Rubik', sans-serif;
     text-align: center;
     margin-top: 15px;
     font-size: 70px;
@@ -75,6 +75,13 @@
 
 /*Media Queries*/
 @media only screen and (max-width: 900px){
+    .eoc{
+        font-family: 'Rubik', sans-serif;
+        text-align: center;
+        margin-top: 15px;
+        font-size: 60px;
+        color: white;
+    }
     .volunteer{
         display: block;
         width: 100%;
