@@ -38,7 +38,7 @@ body{
 /*Name and description*/
 .srujana{
   text-align: center;
-  font-family: 'Montserrat' sans-serif;
+  font-family: 'Rubik' sans-serif;
   font-size: 140px;
   color: white;
 }
@@ -127,7 +127,7 @@ body{
        .srujana{
         text-align: center;
         font-family: 'Rubik', sans-serif;
-        font-size: 80px;
+        font-size: 70px;
         margin-top: 40px;
         margin-bottom: 40px;
         left: 2px;
