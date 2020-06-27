@@ -12,12 +12,14 @@
     font-size: 25px;
     margin: 100px;
     font-family: 'Montserrat', sans-serif;
+    color: #FFFFFF;
 }
 .aboutmetitle{
     text-align: center;
     margin: 40px;
     font-family: 'Montserrat', sans-serif;
     font-size: 100px;
+    color: #FFFFFF;
 }
 /*text*/
 .title{
@@ -25,6 +27,7 @@
     margin-top: 15px;
     font-family: 'Montserrat', sans-serif;
     font-size: 70px;
+    color: #FFFFFF;
 }
 /*Media Queries*/
 @media only screen and (max-width: 900px){
@@ -36,6 +39,7 @@
     }
     .aboutmetitle{
         font-size: 80px;
+        color: #FFFFFF;
     }
 }
 
