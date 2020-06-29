@@ -21,6 +21,33 @@
     color: white;
 }
 /*text*/
+.prototype{
+    color: white;
+    text-decoration: underline;
+    text-align: center;
+    margin-top: 15px;
+}
+.research{
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 25px;
+    color: white; 
+    margin: 10px;
+}
+.screenshotdescription{
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 25px;
+    color: white;
+}
+.list{
+    text-align: center;
+    list-style: disc;
+    list-style-position: outside;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 25px; 
+}
 .description{
     text-align: center;
     font-family: 'Montserrat', sans-serif;
@@ -48,6 +75,27 @@
     font-size: 25px;
     color: white;
 }
+.personadescription{
+    text-align: center;
+    margin: 40px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 25px;
+    color: white;
+}
+.mary{
+    text-align: center;
+    margin: 40px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 25px;
+    color: white;
+}
+.john{
+    text-align: center;
+    margin: 40px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 25px;
+    color: white;
+}
 .styleguidedescription{
     text-align: center;
     margin: 40px;
@@ -56,6 +104,12 @@
     color: white;
 }
 /*images*/
+.competitoranalysis{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
 .volunteer{
     width: 45%;
     display: block;
@@ -72,7 +126,12 @@
     margin-left: auto;
     margin-right: auto;
 }
-
+.userpersona{
+    display: block;
+    width: 10%;
+    margin-left: auto;
+    margin-right: auto;
+}
 /*Media Queries*/
 @media only screen and (max-width: 900px){
     .eoc{
@@ -96,13 +155,8 @@
     }
     .styleguide{
         display: block;
-        width: 90%;
+        width: 70%;
         margin-left: auto;
         margin-right: auto;
     }
 }
-
-
-
-
-
