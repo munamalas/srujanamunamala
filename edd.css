@@ -53,6 +53,12 @@
     font-size: 30px;
     color: white;
 }
+.prototype{
+    color: white;
+    text-decoration: underline;
+    text-align: center;
+    margin-top: 15px;
+}
 /*captions*/
 .description{
     text-align: center;
@@ -90,6 +96,14 @@
    font-size: 25px;
    color: white;
 }
+.list{
+    text-align: center;
+    list-style: disc;
+    list-style-position: outside;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 25px;
+}
 .navdescription{
     text-align: center;
     margin: 40px;
@@ -113,7 +127,7 @@
 }
 /*images*/
 .guide{
-    width: 25%;
+    width: 50%;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -125,8 +139,11 @@
     width: 40%;
 }
 .jobpic{
-    width: 25%;
-    margin: 60px;  
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    padding: 15px; 
 }
 .nav{
     width: 35%;
@@ -136,8 +153,11 @@
     margin-right: auto;
 }
 .ios{
+    display: block;
     width: 25%;
-    margin: 60px;
+    padding: 15px;
+    margin-left: auto;
+    margin-right: auto;
 }
 .center{
     display: block;
@@ -191,15 +211,3 @@
         position: relative;
     }
 }
-
-
-
-
-
-
-
-
-
-
-
-
