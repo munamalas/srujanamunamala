@@ -8,14 +8,22 @@ body{
   background-size: cover;
 }
 .topnav {
-  background-color: black;
+  background-color: whitesmoke;
   overflow-x: hidden;
+  list-style-type: none;
 }
-
+/*Social Media links in Nav Bar*/
+.socialmedia{
+  position: relative;
+  left: 20px;
+  height: 50px;
+  margin: 0px;
+  top: -10px;
+}
 /* Style the links inside the navigation bar */
 .topnav a {
   float: left;
-  color: #ddd;
+  color: black;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
@@ -25,13 +33,13 @@ body{
 
 /* Change the color of links on hover */
 .topnav a:hover {
-  background-color: #ddd;
+  background-color: transparent;
   color: black;
 }
 
 /* Add a color to the active/current link */
 .topnav a.active {
-  background-color: #257FB1;
+  background-color: #23395d;
   color: white;
 }
 
@@ -52,7 +60,7 @@ body{
 }
 /*resume button on the header*/
 .resume {
-  background-color: #257FB1; /* Dark Red */
+  background-color: #48aaad; /* Dark Red */
   border: none;
   color: white;
   text-align: center;
@@ -133,7 +141,10 @@ body{
         left: 2px;
         overflow-x: hidden;
       }
-
+      .resume{
+        position: relative;
+        left: -150px;
+      }
       .cover{
         position: relative;
         left: 15px;
