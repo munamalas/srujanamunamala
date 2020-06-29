@@ -8,13 +8,40 @@
 }
 .hermitheroes{
     text-align: center;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Rubik', sans-serif;
     margin-top: 15px;
     font-size: 70px;
     color: white;
 }
 /*text*/
 .description{
+    text-align: center;
+    margin: 40px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 25px;
+    color: white;
+}
+.list{
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 25px;
+    color: white;
+}
+.future{
+    text-align: center;
+    margin: 40px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 25px;
+    color: white;
+}
+.abouthh{
+    text-align: center;
+    margin: 40px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 25px;
+    color: white;
+}
+.myrole{
     text-align: center;
     margin: 40px;
     font-family: 'Montserrat', sans-serif;
@@ -81,4 +108,52 @@
     display: block;
     margin-left: auto;
     margin-right: auto;
+    width: 50%;
+}
+
+
+/*Media Queries*/
+@media only screen and (max-width: 900px){
+    .hermitheroes{
+        text-align: center;
+        font-family: 'Rubik', sans-serif;
+        font-size: 60px;
+        margin-top: 15px;
+    }
+    .about{
+        text-align: center;
+        margin: 40px;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 25px;
+        color: white;
+    }
+    /*Images*/
+    .styleguide{
+        position: relative;
+        width: 100%;
+    }
+    .load{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+    }
+    .onboard{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+    }
+    .main{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+    }
+    .profile{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+    }
 }
