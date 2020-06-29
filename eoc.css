@@ -141,6 +141,12 @@
         font-size: 60px;
         color: white;
     }
+    .competitoranalysis{
+        display: block;
+        width: 50%;
+        margin-left: auto;
+        margin-right: auto;
+    }
     .volunteer{
         display: block;
         width: 100%;
@@ -153,6 +159,7 @@
         margin-left: auto;
         margin-right: auto;
     }
+    .
     .styleguide{
         display: block;
         width: 70%;
