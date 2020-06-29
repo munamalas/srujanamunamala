@@ -19,6 +19,10 @@
     font-size: 25px;
     color: white;
 }
+.prototype{
+    color: white;
+    text-decoration: underline;
+}
 /*sections in case study*/
 .about{
     text-align: center;
@@ -89,6 +93,14 @@
     width: 570px;
     left: -180px;
     font-size: 25px;
+    color: white;
+}
+.styleguidedescription{
+    position: relative;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 25px;
+    margin-top: 5px;
+    text-align: center;
     color: white;
 }
 /*images in case study*/
@@ -288,3 +300,4 @@
         position: relative;
     }
 }
+
