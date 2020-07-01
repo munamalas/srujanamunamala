@@ -25,9 +25,9 @@ body{
   float: left;
   color: black;
   text-align: center;
-  padding: 14px 16px;
+  padding: 16px 16px;
   text-decoration: none;
-  font-size: 17px;
+  font-size: 22px;
   font-family: 'Montserrat', sans-serif;
 }
 
@@ -47,7 +47,7 @@ body{
 .srujana{
   text-align: center;
   font-family: 'Rubik' sans-serif;
-  font-size: 140px;
+  font-size: 110px;
   color: white;
 }
 .entry{
@@ -55,17 +55,17 @@ body{
   text-align: center;
   word-wrap: break-word;
   font-family: 'Montserrat', sans-serif;
-  font-size: 40px;
+  font-size: 30px;
   color: white;
 }
 /*resume button on the header*/
 .resume {
-  background-color: #48aaad; /* Dark Red */
+  background-color: #48aaad; 
   border: none;
   color: white;
   text-align: center;
   text-decoration: none;
-  font-size: 16px;
+  font-size: 27px;
   margin: 4px 2px;
   cursor: pointer;
   transition-duration: 0.4s;
@@ -74,19 +74,8 @@ body{
   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
 }
 
-/*portfolio Gallery*/
-.col-sm-12{
-  position: relative;
-}
-
-.title{
-  text-align: center;
-}
-.description{
-  text-align: center;
-}
 /*Flip Cards*/
-.row{
+.row-fluid{
   display:flex;
   flex-wrap: wrap;
   flex-direction: column;
@@ -104,8 +93,11 @@ body{
   align-content: center;
 }
 .cover{
-  max-width: 100%;
-  max-height: 100%;
+ display: block;
+ margin-left: auto;
+ margin-right: auto;
+ max-width: 30%;
+ height: auto;
 }
 .flip-card-inner {
   position: relative;
@@ -135,10 +127,7 @@ body{
        .srujana{
         text-align: center;
         font-family: 'Rubik', sans-serif;
-        font-size: 70px;
-        margin-top: 40px;
-        margin-bottom: 40px;
-        left: 2px;
+        font-size: 75px;
         overflow-x: hidden;
       }
       .resume{
@@ -146,13 +135,14 @@ body{
         left: -150px;
       }
       .cover{
-        position: relative;
-        left: 15px;
-        width: 100%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 100%;
+      } 
+      .row-fluid{
+        max-width: 100%;
       }
-      .title{
-        font-size: 60px;
-      }  
       .img-fluid {
         max-width: 100%;
         height: auto;
@@ -162,6 +152,7 @@ body{
         justify-content: space-around;
         align-content: center;
       }
+
       
     }
 
