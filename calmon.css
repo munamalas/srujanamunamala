@@ -3,7 +3,7 @@
     text-align: center;
     font-family: 'Montserrat', sans-serif;
     font-size: 70px;
-    margin-top: 15px;
+    margin: 10px;
     color: white;
 }
 .subheading{
@@ -25,14 +25,15 @@
 }
 /*sections in case study*/
 .about{
-    text-align: center;
+    text-align: left;
+    text-justify: auto;
     margin: 60px;
     font-family: 'Montserrat', sans-serif;
     font-size: 25px;
     color: white;
 }
 .research{
-    text-align: center;
+    text-align: left;
     margin: 40px;
     font-family: 'Montserrat', sans-serif;
     font-size: 25px;
@@ -41,6 +42,7 @@
 .Sprite{
     text-align: center;
     margin: 40px;
+    left: 170px;
     font-family: 'Rubik', sans-serif;
     font-size: 35px;
     color: white;
@@ -60,21 +62,22 @@
     color: white;
 }
 .aboutsprite{
-    text-align: center;
+    text-align: left;
     margin: 40px;
     font-family: 'Montserrat', sans-serif;
     font-size: 25px;
     color: white;
 }
 .aboutaurora{
-    text-align: center;
+    text-align: left;
     margin: 40px;
     font-family: 'Montserrat', sans-serif;
     font-size: 25px;
     color: white;
 }
 .aboutflynn{
-    text-align: center;
+    text-align: left;
+    margin: 40px;
     margin-bottom: 40px;
     font-family: 'Montserrat', sans-serif;
     font-size: 25px;
@@ -82,6 +85,7 @@
 }
 .Style{
     text-align: center;
+    text-justify: auto;
     margin: 40px;
     font-family: 'Rubik', sans-serif;
     color: white;
@@ -90,8 +94,7 @@
     position: relative;
     font-family: 'Montserrat', sans-serif;
     text-align: left;
-    width: 570px;
-    left: -180px;
+    margin: 40px;
     font-size: 25px;
     color: white;
 }
@@ -100,21 +103,52 @@
     font-family: 'Montserrat', sans-serif;
     font-size: 25px;
     margin-top: 5px;
-    text-align: center;
+    text-align: left;
+    margin: 40px;
     color: white;
 }
+.aurora2{
+    text-align: center;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    margin-top: 5px;
+}
+.flynn2{
+    text-align: center;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    margin-top: 5px;
+}
+.sprite2{
+    text-align: center;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    margin-top: 5px;
+}
+
 /*images in case study*/
-.aurora{
+
+.select{
     width: 10%;
     margin: 40px;
+    justify-content: space-around;
 }
 .flynn{
-    width: 10%;
-    margin: 40px;
+    position: relative;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
 }
 .sprite{
-    width: 10%;
-    margin: 40px;
+    position: relative;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
 }
 .exercise{
     width: 10%;
@@ -167,12 +201,7 @@
     width: 50%;
 }
 /*descriptions next to images*/
-.homescreens{
-   float: right;
-   max-width: 1100px;
-   margin-top: 20px;
-   margin-bottom: 40px;
-}
+
 .aboutsprite{
    margin-top: 20px;
    margin-bottom: 40px;
@@ -182,6 +211,13 @@
 
 /*Media Queries*/
 @media only screen and (max-width: 900px){
+    .select{
+        position: relative;
+        display: block;
+        width: 50%;
+        margin-left: auto;
+        margin-right: auto;
+    }
     .aurora{
         position: relative;
         display: block;
@@ -205,11 +241,8 @@
     }
     .homescreens{
         position: relative;
-        text-align: center;
-        left: 20px;
-        width: 375px;
+        text-align: left;
         word-wrap: break-word;
-        margin: 30px 30px 30px 30px;
     }
     /*Sprite character*/
     .technique{
@@ -300,4 +333,3 @@
         position: relative;
     }
 }
-
