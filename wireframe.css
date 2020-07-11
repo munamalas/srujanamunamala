@@ -1,9 +1,13 @@
 /*Navigation Bar*/
 body{
   overflow-x: hidden;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
 }
 .topnav {
-  background-color: whitesmoke;
+  background-color: #C9D4E4;
   overflow-x: hidden;
   list-style-type: none;
 }
@@ -43,7 +47,7 @@ body{
   text-align: center;
   font-family: 'Rubik' sans-serif;
   font-size: 110px;
-  color: white;
+  color: black;
 }
 .entry{
   position: relative;
@@ -51,7 +55,7 @@ body{
   word-wrap: break-word;
   font-family: 'Montserrat', sans-serif;
   font-size: 30px;
-  color: white;
+  color: black;
 }
 /*resume button on the header*/
 .resume {
