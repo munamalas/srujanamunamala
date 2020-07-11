@@ -1,165 +1,178 @@
-/*heading*/
+/*text*/
 .edd{
     text-align: center;
-    font-family: 'Rubik', sans-serif;
     margin-top: 15px;
+    font-family: 'Montserrat', sans-serif;
     font-size: 70px;
-    color: white;
 }
-.subheading{
-    text-align: center;
-    margin: 40px;
-    font-family: 'Rubik', sans-serif;
-    font-size: 30px;
-    color: white;
-}
-
-.about{
-    text-align: center;
-    margin: 40px;
+.overview{
     font-family: 'Montserrat', sans-serif;
     font-size: 25px;
-    color: white;
+    color: black;
+    margin-top: 35px;
+    margin: 10px;
+    position: relative;
+    text-align: left;
+    column-count: 2;
+    column-gap: 15px;
+    word-wrap: break-word;
+    float: left;
+    background-color:#CAD9FF;
+    width: 100%;
 }
-.CJPD{
+.myrole{
+    font-size: 25px;
+    font-family: 'Montserrat', sans-serif;
+}
+.teamsize{
+    font-size: 25px;
+    font-family: 'Montserrat', sans-serif;
+}
+.platform{
+    font-size: 25px;
+    font-family: 'Montserrat', sans-serif;
+}
+.targetaudience{
+    font-size: 25px;
+    font-family: 'Montserrat', sans-serif
+}
+.duration{
+    font-size: 25px;
+    font-family: 'Montserrat', sans-serif;
+}
+.tools{
+    font-size: 25px;
+    font-family: 'Montserrat', sans-serif;
+}
+.overviewtitle{
     text-align: center;
-    margin: 40px;
-    font-family: 'Rubik' sans-serif;
-    font-size: 30px;
-    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 35px;
 }
-.finalscreens{
+.problemstatementtitle{
     text-align: center;
-    margin: 40px;
-    font-family: 'Rubik', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 15px;
     font-size: 30px;
-    color: white;
 }
-.navscreens{
-    text-align: center;
-    margin: 40px;
-    font-size: 30px;
-    color: white;
+.statement{
+    text-align: left;
+    margin-top: 15px;
+    margin: 25px;
+    font-size: 25px;
+    font-family: 'Montserrat', sans-serif;
 }
-.iosscreens{
-    text-align: center;
-    margin: 40px;
-    font-size: 30px;
-    color: white;
-}
-.styleguide{
-    text-align: center;
-    margin: 40px;
-    font-size: 30px;
-    color: white;
-}
-.prototype{
-    color: white;
-    text-decoration: underline;
+.problem{
     text-align: center;
     margin-top: 15px;
-}
-/*captions*/
-.description{
-    text-align: center;
-    margin: 40px;
+    font-size: 30px;
     font-family: 'Montserrat', sans-serif;
+}
+.process{
+    text-align: center;
+    margin-top: 35px;
+    font-size: 30px;
+    font-family: 'Montserrat', sans-serif;
+}
+.processt{
+    text-align: center;
+    margin: 10px;
+    margin-top: 15px;
     font-size: 25px;
-    color: white;
+    font-family: 'Montserrat', sans-serif;
+    word-wrap: break-word;
+}
+.researchprocess{
+    text-align: center;
+    margin-top: 35px;
+    font-size: 30px;
+    font-family: 'Montserrat', sans-serif;
 }
 .research{
+    text-align: right;
+    margin: 25px;
+    font-size: 25px;
+    text-align: left;
+    font-family: 'Montserrat', sans-serif;
+}
+.designprocess{
     text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    margin-top: 35px;
+}
+.design{
+    text-align: left;
+    font-size: 25px;
     margin: 40px;
     font-family: 'Montserrat', sans-serif;
-    font-size: 25px;
-    color: white;
 }
-.jobs{
+.final{
     text-align: center;
+    font-size: 35px;
+    font-family: 'Montserrat', sans-serif;
+}
+.finaldescription{
     margin: 40px;
-    font-family: 'Montserrat', sans-serif;
     font-size: 25px;
-    color: white;
+    font-family: 'Montserrat', sans-serif;
+    text-align: left;
 }
-.homescreen{
-    text-align: center;
+
+.key{
     margin: 40px;
-    font-family: 'Montserrat', sans-serif;
     font-size: 25px;
-    color: white;
-}
-.jobdescription{
-   position: relative;
-   text-align: center;
-   margin: 40px;
-   font-family: 'Montserrat', sans-serif;
-   font-size: 25px;
-   color: white;
-}
-.list{
-    text-align: center;
-    list-style: disc;
-    list-style-position: outside;
-    color: white;
     font-family: 'Montserrat', sans-serif;
-    font-size: 25px;
+    text-align: left;
 }
-.navdescription{
-    text-align: center;
-    margin: 40px;
-    font-family: 'Montserrat', sans-serif;
-    font-size: 25px;
-    color: white;
-}
-.iosdescription{
-    text-align: center;
-    margin: 40px;
-    font-family: 'Montserrat', sans-serif;
-    font-size: 25px;
-    color: white;
-}
-.styleguidedescription{
-    text-align: center;
-    margin: 40px;
-    font-family: 'Montserrat', sans-serif;
-    font-size: 25px;
-    color: white;
-}
+
 /*images*/
-.guide{
-    width: 50%;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+.finalprototype{
+    position: relative;
+    float: left;
+    width: 20%;
 }
-.screenshot{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 40%;
-}
-.jobpic{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
-    padding: 15px; 
-}
-.nav{
-    width: 35%;
-    margin: 60px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-}
-.ios{
-    display: block;
+.finalprototype2{
+    position: relative;
+    float: left;
     width: 25%;
-    padding: 15px;
+}
+.notes{
+    position: relative;
+    float: left;
+    width: 50%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.map{
+    display: block;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.test{
+    display: block;
+    width: 50%;
     margin-left: auto;
     margin-right: auto;
 }
-.center{
+.wireframe{
+    position: relative;
+    width: 45%;
+}
+.wireframemobile{
+    position: relative;
+    width: auto;
+}
+.wireframewatch{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+.styleguide{
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -168,46 +181,84 @@
 
 /*Media Queries*/
 @media only screen and (max-width: 900px){
+    html,body{
+        max-width: 100%;
+        overflow-x: hidden !important; 
+      }
+      .topnav{
+        max-width: 800px;
+        overflow-x: hidden;
+      }
     .edd{
         text-align: center;
-        font-family: 'Rubik', sans-serif;
         margin-top: 15px;
-        font-size: 60px;
-        color: white;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 50px;  
     }
-    .screenshot{
+    .overview{
+        font-family: 'Montserrat', sans-serif;
+        font-size: 25px;
+        color: black;
+        position: relative;
+        background-color:#CAD9FF;
+        width: 100%;
+        margin: auto;
+        column-count: 1;
+    }
+/*Images*/
+    .notes{
         display: block;
         margin-left: auto;
         margin-right: auto;
         width: 100%;
-        position: relative;
     }
-    .jobpic{
+    .map{
         display: block;
         margin-left: auto;
         margin-right: auto;
-        width: 80%;
-        position: relative;
+        width: 100%;
     }
-    .nav{
+    .styleguide{
         display: block;
         margin-left: auto;
         margin-right: auto;
-        width: 80%;
-        position: relative;
+        width: 100%;
     }
-    .ios{
+    .wireframe{
         display: block;
         margin-left: auto;
         margin-right: auto;
-        width: 80%;
-        position: relative;
+        width: 100%;
+        padding: 10px;
     }
-    .guide{
+    .wireframemobile{
         display: block;
         margin-left: auto;
         margin-right: auto;
-        width: 80%;
-        position: relative;
+        width: 100%;
     }
+    .wireframewatch{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 110%;
+    }
+    .finalprototype{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+    }
+    .finalprototype2{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+    }
+
+
+
+
 }
+
+
