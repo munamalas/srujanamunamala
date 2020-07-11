@@ -4,195 +4,132 @@
     font-family: 'Montserrat', sans-serif;
     font-size: 70px;
     margin: 10px;
-    color: white;
+    color: black;
 }
-.subheading{
-    text-align: center;
-    font-family: 'Rubik', sans-serif;
-    font-size: 35px;
-    color: white;
-}
-.description{
-    text-align: center;
-    margin: 50px;
+.overview{
     font-family: 'Montserrat', sans-serif;
     font-size: 25px;
-    color: white;
-}
-.prototype{
-    color: white;
-    text-decoration: underline;
-}
-/*sections in case study*/
-.about{
+    color: black;
+    margin-top: 35px;
+    margin: 10px;
+    position: relative;
     text-align: left;
-    text-justify: auto;
-    margin: 60px;
-    font-family: 'Montserrat', sans-serif;
+    column-count: 2;
+    column-gap: 15px;
+    word-wrap: break-word;
+    float: left;
+    background-color:#CAD9FF;
+    width: 100%;
+}
+.myrole{
     font-size: 25px;
-    color: white;
+    font-family: 'Montserrat', sans-serif;
+}
+.teamsize{
+    font-size: 25px;
+    font-family: 'Montserrat', sans-serif;
+}
+.platform{
+    font-size: 25px;
+    font-family: 'Montserrat', sans-serif;
+}
+.targetaudience{
+    font-size: 25px;
+    font-family: 'Montserrat', sans-serif
+}
+.duration{
+    font-size: 25px;
+    font-family: 'Montserrat', sans-serif;
+}
+.tools{
+    font-size: 25px;
+    font-family: 'Montserrat', sans-serif;
+}
+.overviewtitle{
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 35px;
+}
+.problemstatementtitle{
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 15px;
+    font-size: 30px;
+}
+.statement{
+    text-align: left;
+    margin-top: 15px;
+    font-size: 25px;
+    font-family: 'Montserrat', sans-serif;
+}
+.problem{
+    text-align: center;
+    margin-top: 15px;
+    font-size: 30px;
+    font-family: 'Montserrat', sans-serif;
+}
+.process{
+    text-align: center;
+    margin-top: 35px;
+    font-size: 30px;
+    font-family: 'Montserrat', sans-serif;
+}
+.processt{
+    text-align: left;
+    margin-top: 15px;
+    font-size: 25px;
+    font-family: 'Montserrat', sans-serif;
+}
+.researchprocess{
+    text-align: center;
+    margin-top: 35px;
+    font-size: 30px;
+    font-family: 'Montserrat', sans-serif;
 }
 .research{
+    text-align: right;
+    margin: 25px;
+    font-size: 25px;
     text-align: left;
+    font-family: 'Montserrat', sans-serif;
+}
+.designprocess{
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Montserrat', sans-serif;
+}
+.design{
+    text-align: left;
+    font-size: 25px;
     margin: 40px;
     font-family: 'Montserrat', sans-serif;
-    font-size: 25px;
-    color: white;
 }
-.Sprite{
+.list{
+    font-size: 25px;
+    font-family: 'Montserrat', sans-serif;
+}
+.final{
     text-align: center;
-    margin: 40px;
-    left: 170px;
-    font-family: 'Rubik', sans-serif;
     font-size: 35px;
-    color: white;
-}
-.Aurora{
-    text-align: center;
-    margin: 40px;
-    font-family: 'Rubik', sans-serif;
-    font-size: 35px;
-    color: white;
-}
-.Flynn{
-    text-align: center;
-    margin: 40px;
-    font-family: 'Rubik', sans-serif;
-    font-size: 35px;
-    color: white;
-}
-.aboutsprite{
-    text-align: left;
-    margin: 40px;
     font-family: 'Montserrat', sans-serif;
-    font-size: 25px;
-    color: white;
 }
-.aboutaurora{
-    text-align: left;
-    margin: 40px;
-    font-family: 'Montserrat', sans-serif;
-    font-size: 25px;
-    color: white;
-}
-.aboutflynn{
-    text-align: left;
-    margin: 40px;
-    margin-bottom: 40px;
-    font-family: 'Montserrat', sans-serif;
-    font-size: 25px;
-    color: white;
-}
-.Style{
-    text-align: center;
-    text-justify: auto;
-    margin: 40px;
-    font-family: 'Rubik', sans-serif;
-    color: white;
-}
-.homescreens{
-    position: relative;
-    font-family: 'Montserrat', sans-serif;
-    text-align: left;
+.finaldescription{
     margin: 40px;
     font-size: 25px;
-    color: white;
-}
-.styleguidedescription{
-    position: relative;
     font-family: 'Montserrat', sans-serif;
-    font-size: 25px;
-    margin-top: 5px;
     text-align: left;
-    margin: 40px;
-    color: white;
 }
-.aurora2{
-    text-align: center;
-    color: white;
-    font-family: 'Montserrat', sans-serif;
-    font-size: 18px;
-    margin-top: 5px;
-}
-.flynn2{
-    text-align: center;
-    color: white;
-    font-family: 'Montserrat', sans-serif;
-    font-size: 18px;
-    margin-top: 5px;
-}
-.sprite2{
-    text-align: center;
-    color: white;
-    font-family: 'Montserrat', sans-serif;
-    font-size: 18px;
-    margin-top: 5px;
-}
-
-/*images in case study*/
-
-.select{
-    width: 10%;
-    margin: 40px;
-    justify-content: space-around;
-}
-.flynn{
-    position: relative;
+/*images*/
+.analysis{
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 20%;
+    width: 50%;
 }
-.sprite{
+.finalprototype{
     position: relative;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 20%;
-}
-.exercise{
-    width: 10%;
-    margin: 20px;
-}
-.handwash{
-    width: 10%;
-    margin: 20px;
-}
-.healthy{
-    width: 10%;
-    margin: 20px;
-}
-.technique{
-    width: 10%;
-    margin: 20px;
-}
-.library{
-    width: 10%;
-    margin: 20px;
-}
-.journal{
-    width: 10%;
-    margin: 20px;
-}
-.hug{
-    width: 10%;
-    margin: 20px;
-}
-.chat{
-    width: 10%;
-    margin: 20px;
-}
-.story{
-    width: 10%;
-    margin: 20px;
-}
-.anger{
-    width: 10%;
-    margin: 20px;
-}
-.positive{
-    width: 10%;
-    margin: 20px;
+    float: left;
+    width: 35%;
 }
 .styleguide{
     display: block;
@@ -200,136 +137,107 @@
     margin-right: auto;
     width: 50%;
 }
-/*descriptions next to images*/
-
-.aboutsprite{
-   margin-top: 20px;
-   margin-bottom: 40px;
+.character{
+    position: relative;
+    width: 20%;
+    padding: 50px;
+    margin: 40px;
 }
-
-
-
+.sketch{
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+   width: 50%;
+   margin-top: 15px;
+}
+.activity{
+    position: relative;
+    width: 20%;
+    padding: 15px;
+    margin: 40px;
+}
 /*Media Queries*/
 @media only screen and (max-width: 900px){
-    .select{
+    html,body{
+        max-width: 100%;
+        overflow-x: hidden !important; 
+      }
+      .topnav{
+        max-width: 800px;
+        overflow-x: hidden;
+      }
+    .edd{
+        text-align: center;
+        margin-top: 15px;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 50px;  
+    }
+    .overview{
+        font-family: 'Montserrat', sans-serif;
+        font-size: 25px;
+        color: black;
         position: relative;
-        display: block;
-        width: 50%;
-        margin-left: auto;
-        margin-right: auto;
-    }
-    .aurora{
-        position: relative;
-        display: block;
-        width: 50%;
-        margin-left: auto;
-        margin-right: auto;
-    }
-    .flynn{
-        position: relative;
-        display: block;
-        width: 50%;
-        margin-left: auto;
-        margin-right: auto;
-    }
-    .sprite{
-        position: relative;
-        display: block;
-        width: 50%;
-        margin-left: auto;
-        margin-right: auto;
-    }
-    .homescreens{
-        position: relative;
-        text-align: left;
-        word-wrap: break-word;
-    }
-    /*Sprite character*/
-    .technique{
-        display: block;
-        width: 50%;
-        margin-left: auto;
-        margin-right: auto;
-        position: relative;
-    }
-    .library{
-        display: block;
-        width: 50%;
-        margin-left: auto;
-        margin-right: auto;
-        position: relative;
-    }
-    .chat{
-        display: block;
-        width: 50%;
-        margin-left: auto;
-        margin-right: auto;
-        position: relative;
-    }
-    .story{
-        display: block;
-        width: 50%;
-        margin-left: auto;
-        margin-right: auto;
-        position: relative;
-    }
-    .hug{
-        display: block;
-        width: 50%;
-        margin-left: auto;
-        margin-right: auto;
-        position: relative;
-    }
-    .anger{
-        display: block;
-        width: 50%;
-        margin-left: auto;
-        margin-right: auto;
-        position: relative;
-    }
-    /*Aurora*/
-    .journal{
-        display: block;
-        width: 50%;
-        margin-left: auto;
-        margin-right: auto;
-        position: relative; 
-    }
-    .positive{
-        display: block;
-        width: 50%;
-        margin-left: auto;
-        margin-right: auto;
-        position: relative;
-    }
-    /*Flynn*/
-    .exercise{
-        display: block;
-        width: 50%;
-        margin-left: auto;
-        margin-right: auto;
-        position: relative;
-    }
-    .handwash{
-        display: block;
-        width: 50%;
-        margin-left: auto;
-        margin-right: auto;
-        position: relative;
-    }
-    .healthy{
-        display: block;
-        width: 50%;
-        margin-left: auto;
-        margin-right: auto;
-        position: relative;
-    }
-    /*Style Guide*/
-    .styleguide{
-        display: block;
+        background-color:#CAD9FF;
         width: 100%;
+        margin: auto;
+        column-count: 1;
+    }
+    .finalprototype{
+        display: block;
         margin-left: auto;
         margin-right: auto;
+        width: 100%;
+    }
+    /*Text*/
+    .statement{
+        text-align: left;
+        margin: 20px;
         position: relative;
     }
+    .processt{
+        text-align: left;
+        margin: 20px;
+        position: relative;
+    }
+    .design{
+        text-align: left;
+        margin: 20px;
+        position: relative;
+    }
+   .list{
+       text-align: left;
+       margin: 20px;
+   }
+   /*Images*/
+   .analysis{
+       display: block;
+       margin-left: auto;
+       margin-right: auto;
+       width: 100%;
+   }
+   .character{
+       display: block;
+       margin-left: auto;
+       margin-right: auto;
+       width: 100%;
+   }
+   .activity{
+       display: block;
+       margin-left: auto;
+       margin-right: auto;
+       width: 100%;
+   }
+   .sketch{
+       display: block;
+       margin-left: auto;
+       margin-right: auto;
+       width: 100%;
+   }
+   .styleguide{
+       display: block;
+       margin-left: auto;
+       margin-right: auto;
+       width: 100%;
+   }
+
 }
