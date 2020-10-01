@@ -1,24 +1,25 @@
+nav{
+    font-family: 'Montserrat', sans-serif;
+}
 /*heading*/
 .eoc{
     text-align: center;
-    margin-top: 15px;
+    margin-top: 50px;
     font-family: 'Montserrat', sans-serif;
     font-size: 70px;
 }
 .overview{
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Montserrat';
     font-size: 25px;
     color: black;
-    margin-top: 35px;
-    margin: 10px;
     position: relative;
     text-align: left;
     column-count: 2;
-    column-gap: 15px;
+    column-gap: 45px;
     word-wrap: break-word;
-    float: left;
-    background-color:#CAD9FF;
-    width: 100%;
+    float: right;
+    background-color:#C891C1;
+    width: 90%;
 }
 .myrole{
     font-size: 25px;
@@ -57,13 +58,23 @@
 .finalprototype{
     position: relative;
     float: left;
+    margin-left: 85px;
     width: 35%;
 }
 /*Process (Research and Design)*/
+.generalprocess{
+    position: relative;
+    text-align: left;
+    font-size: 25px;
+    margin-top: 25px;
+    margin-left: 500px;
+    font-family: 'Montserrat', sans-serif;
+}
+
 .problemstatementtitle{
     text-align: center;
     font-family: 'Montserrat', sans-serif;
-    margin-top: 15px;
+    margin-top: 55px;
     font-size: 30px;
 }
 .statement{
@@ -93,6 +104,15 @@
     font-family: 'Montserrat', sans-serif;
     word-wrap: break-word;
 }
+.researchp{
+    text-align: center;
+    margin-top: 35px;
+    font-size: 30px;
+    font-family: 'Montserrat', sans-serif;
+    width: 90%;
+    margin-left: 110px;
+    
+}
 .researchprocess{
     text-align: center;
     margin-top: 35px;
@@ -118,6 +138,17 @@
     margin: 40px;
     font-family: 'Montserrat', sans-serif;
 }
+.designp{
+    position: relative;
+    text-align: justify;
+    font-size: 25px;
+    margin-left: 100px;
+    font-family: 'Montserrat', sans-serif;
+}
+.finals{
+    position: relative;
+    margin-left: 100px;
+} 
 .final{
     text-align: center;
     font-size: 35px;
@@ -189,12 +220,6 @@ html,body{
     column-count: 1;
 }
 /*Images*/
-.finalprototype{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 100%;
-}
 .persona{
     display: block;
     margin-left: auto;

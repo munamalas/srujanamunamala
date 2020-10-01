@@ -1,52 +1,20 @@
 /*Navigation Bar*/
 body{
-  overflow-x: hidden;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-position: center;
-  background-size: cover;
-}
-.topnav {
-  background-color: #C9D4E4;
-  overflow-x: hidden;
-  list-style-type: none;
-}
-/*Social Media links in Nav Bar*/
-.socialmedia{
+  background-image: url('purpledots.png');
   position: relative;
-  left: 20px;
-  height: 50px;
-  margin: 0px;
-  top: -10px;
-}
-/* Style the links inside the navigation bar */
-.topnav a {
-  float: left;
-  color: black;
-  text-align: center;
-  padding: 16px 16px;
-  text-decoration: none;
-  font-size: 22px;
-  font-family: 'Montserrat', sans-serif;
-}
-
-/* Change the color of links on hover */
-.topnav a:hover {
-  background-color: transparent;
-  color: black;
-}
-
-/* Add a color to the active/current link */
-.topnav a.active {
-  background-color: #23395d;
-  color: white;
+  background-repeat: repeat-y;
+  background-origin: padding-box;
+  background-size: 10%;
+  font-family: 'Montserrat';
+  overflow-x: hidden;
 }
 
 /*Name and description*/
 .srujana{
+  margin-top: 50px;
   text-align: center;
-  font-family: 'Rubik' sans-serif;
-  font-size: 110px;
+  font-family: 'Montserrat';
+  font-size: 100px;
   color: black;
 }
 .entry{
@@ -57,6 +25,38 @@ body{
   font-size: 30px;
   color: black;
 }
+
+/*Case Study*/
+.flip-card-front:hover .projecttitle{
+  opacity: 1;
+}
+.flip-card-front:hover .cover{
+  opacity: 0.3;
+}
+.projecttitle{
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: transparent;
+}
+.Title{
+  color: black;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
 /*resume button on the header*/
 .resume {
   background-color: #48aaad; 
