@@ -1,29 +1,30 @@
+nav{
+    font-family: 'Montserrat', sans-serif;
+}
 /*Heading*/
 .calmon{
     text-align: center;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Montserrat';
     font-size: 70px;
-    margin: 10px;
+    margin-top: 50px;
     color: black;
 }
 .overview{
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Montserrat';
     font-size: 25px;
     color: black;
-    margin-top: 35px;
-    margin: 10px;
     position: relative;
     text-align: left;
     column-count: 2;
-    column-gap: 15px;
+    column-gap: 45px;
     word-wrap: break-word;
-    float: left;
-    background-color:#CAD9FF;
-    width: 100%;
+    float: right;
+    background-color:#C891C1;
+    width: 90%;
 }
 .myrole{
     font-size: 25px;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Montserrat';
 }
 .teamsize{
     font-size: 25px;
@@ -48,7 +49,22 @@
 .overviewtitle{
     text-align: center;
     font-family: 'Montserrat', sans-serif;
-    font-size: 35px;
+    font-size: 30px;
+}
+.generalprocess{
+    position: relative;
+    text-align: left;
+    font-size: 25px;
+    margin-top: 25px;
+    margin-left: 530px;
+    font-family: 'Montserrat', sans-serif;
+}
+.process{
+    position: relative;
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 40px;
 }
 .problemstatementtitle{
     text-align: center;
@@ -68,17 +84,14 @@
     font-size: 30px;
     font-family: 'Montserrat', sans-serif;
 }
-.process{
+.researchp{
     text-align: center;
     margin-top: 35px;
     font-size: 30px;
     font-family: 'Montserrat', sans-serif;
-}
-.processt{
-    text-align: left;
-    margin-top: 15px;
-    font-size: 25px;
-    font-family: 'Montserrat', sans-serif;
+    width: 90%;
+    margin-left: 110px;
+    
 }
 .researchprocess{
     text-align: center;
@@ -87,27 +100,32 @@
     font-family: 'Montserrat', sans-serif;
 }
 .research{
-    text-align: right;
+    text-align: left;
     margin: 25px;
     font-size: 25px;
-    text-align: left;
     font-family: 'Montserrat', sans-serif;
 }
 .designprocess{
     text-align: center;
+    margin-top: auto;
     font-size: 30px;
     font-family: 'Montserrat', sans-serif;
 }
-.design{
-    text-align: left;
+.designp{
+    position: relative;
+    text-align: justify;
     font-size: 25px;
-    margin: 40px;
+    margin-left: 130px;
     font-family: 'Montserrat', sans-serif;
 }
 .list{
     font-size: 25px;
     font-family: 'Montserrat', sans-serif;
 }
+.finals{
+    position: relative;
+    margin-left: 100px;
+} 
 .final{
     text-align: center;
     font-size: 35px;
@@ -122,13 +140,15 @@
 /*images*/
 .analysis{
     display: block;
+    margin-top: 10px;
     margin-left: auto;
     margin-right: auto;
-    width: 50%;
+    width: 40%;
 }
 .finalprototype{
     position: relative;
     float: left;
+    margin-left: 85px;
     width: 35%;
 }
 .styleguide{
@@ -139,9 +159,8 @@
 }
 .character{
     position: relative;
-    width: 20%;
-    padding: 50px;
-    margin: 40px;
+    width: 10%;
+    margin-left: 170px;
 }
 .sketch{
    display: block;
@@ -183,25 +202,29 @@
         column-count: 1;
     }
     .finalprototype{
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-        width: 100%;
+        position: relative;
+        width: 50%;
+        float: center;
     }
     /*Text*/
+    
     .statement{
         text-align: left;
         margin: 20px;
         position: relative;
     }
     .processt{
-        text-align: left;
-        margin: 20px;
         position: relative;
+        text-align: left;
+        margin-top: 5px;
+        margin-right: 280px;
+        font-size: 25px;
+        font-family: 'Montserrat';
     }
     .design{
         text-align: left;
-        margin: 20px;
+        width: 50%;
+        word-wrap: break-word;
         position: relative;
     }
    .list{
@@ -213,7 +236,7 @@
        display: block;
        margin-left: auto;
        margin-right: auto;
-       width: 100%;
+       width: 50%;
    }
    .character{
        display: block;

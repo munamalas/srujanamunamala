@@ -1,24 +1,42 @@
+nav{
+    font-family: 'Montserrat', sans-serif;
+}
+.finals:hover .projecttitle{
+    opacity: 1;
+  }
+.finals:hover .cover{
+    opacity: 0.3;
+  }
+.Title{
+    color: black;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
 /*text*/
 .edd{
     text-align: center;
-    margin-top: 15px;
+    margin-top: 50px;
     font-family: 'Montserrat', sans-serif;
     font-size: 70px;
 }
 .overview{
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Montserrat';
     font-size: 25px;
     color: black;
-    margin-top: 35px;
-    margin: 10px;
     position: relative;
     text-align: left;
     column-count: 2;
-    column-gap: 15px;
+    column-gap: 45px;
     word-wrap: break-word;
-    float: left;
-    background-color:#CAD9FF;
-    width: 100%;
+    float: right;
+    background-color:#C891C1;
+    width: 90%;
 }
 .myrole{
     font-size: 25px;
@@ -49,6 +67,20 @@
     font-family: 'Montserrat', sans-serif;
     font-size: 35px;
 }
+.generalprocess{
+    position: relative;
+    text-align: left;
+    font-size: 25px;
+    margin-top: 15px;
+    font-family: 'Montserrat', sans-serif;
+}
+.process{
+    position: relative;
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 40px;
+}
 .problemstatementtitle{
     text-align: center;
     font-family: 'Montserrat', sans-serif;
@@ -68,19 +100,36 @@
     font-size: 30px;
     font-family: 'Montserrat', sans-serif;
 }
-.process{
+
+.processt{
+    position: relative;
+    text-align: left;
+    margin-top: 5px;
+    margin-left: 130px;
+    font-size: 25px;
+    font-family: 'Montserrat';
+}
+.researchp{
     text-align: center;
     margin-top: 35px;
     font-size: 30px;
     font-family: 'Montserrat', sans-serif;
+    width: 90%;
+    margin-left: 110px;
+    
 }
-.processt{
-    text-align: center;
-    margin: 10px;
-    margin-top: 15px;
+.designp{
+    position: relative;
+    text-align: justify;
     font-size: 25px;
+    margin-left: 110px;
     font-family: 'Montserrat', sans-serif;
-    word-wrap: break-word;
+}
+.problemstatement{
+    text-align: left;
+    font-family: 'Montserrat', sans-serif;
+    width: 90%;
+    margin-left: 110px;
 }
 .researchprocess{
     text-align: center;
@@ -107,6 +156,11 @@
     margin: 40px;
     font-family: 'Montserrat', sans-serif;
 }
+.finals{
+    position: relative;
+    margin-left: 110px;
+ } 
+
 .final{
     text-align: center;
     font-size: 35px;
@@ -125,17 +179,25 @@
     font-family: 'Montserrat', sans-serif;
     text-align: left;
 }
-
+.keytakeaways{
+    position: relative;
+    text-align: center;
+    width: 90%;
+    margin-left: 110px;
+    margin-top: 250px;
+}
 /*images*/
 .finalprototype{
     position: relative;
     float: left;
     width: 20%;
+    margin-left: 100px;
 }
 .finalprototype2{
     position: relative;
     float: left;
-    width: 25%;
+    margin-left: 100px;
+    width: 30%;
 }
 .notes{
     position: relative;
@@ -159,12 +221,18 @@
     margin-right: auto;
 }
 .wireframe{
-    position: relative;
-    width: 45%;
+    display: block;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
 }
 .wireframemobile{
     position: relative;
-    width: auto;
+    display: block;
+    width: 35%;
+    margin-left: auto;
+    margin-right: auto;
 }
 .wireframewatch{
     display: block;
@@ -228,14 +296,13 @@
         display: block;
         margin-left: auto;
         margin-right: auto;
-        width: 100%;
-        padding: 10px;
+        width: 50%;
     }
     .wireframemobile{
         display: block;
         margin-left: auto;
         margin-right: auto;
-        width: 100%;
+        width: 50%;
     }
     .wireframewatch{
         display: block;
