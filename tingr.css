@@ -21,7 +21,7 @@ nav{
     word-wrap: break-word;
     float: right;
     background-color:#C891C1;
-    width: 90%;
+    width: 100%;
 }
 .myrole{
     font-size: 25px;
@@ -83,6 +83,7 @@ nav{
     font-family: 'Montserrat', sans-serif;
 }
 .researchp{
+    position: relative;
     text-align: center;
     margin-top: 35px;
     font-size: 30px;
@@ -97,8 +98,18 @@ nav{
     font-family: 'Montserrat', sans-serif;
 }
 .research{
+    position: relative;
     text-align: right;
     margin: 25px;
+    font-size: 25px;
+    text-align: left;
+    font-family: 'Montserrat', sans-serif;
+}
+.research2{
+    position: relative;
+    text-align: right;
+    margin: 25px;
+    left: 70px;
     font-size: 25px;
     text-align: left;
     font-family: 'Montserrat', sans-serif;
@@ -116,6 +127,8 @@ nav{
     font-family: 'Montserrat', sans-serif;
 }
 .design{
+    position: relative;
+    left: 50px;
     text-align: left;
     font-size: 25px;
     margin: 40px;
@@ -135,12 +148,24 @@ nav{
     font-family: 'Montserrat', sans-serif;
 }
 .finaldescription{
+    position: relative;
+    left: 50px;
+    margin: 40px;
+    font-size: 25px;
+    font-family: 'Montserrat', sans-serif;
+    text-align: left;
+}
+.finaldescription2{
+    position: relative;
+    left: 50px;
     margin: 40px;
     font-size: 25px;
     font-family: 'Montserrat', sans-serif;
     text-align: left;
 }
 .key{
+    position: relative;
+    left: 50px;
     margin: 40px;
     font-size: 25px;
     font-family: 'Montserrat', sans-serif;
