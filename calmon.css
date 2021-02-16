@@ -20,7 +20,7 @@ nav{
     word-wrap: break-word;
     float: right;
     background-color:#C891C1;
-    width: 90%;
+    width: 100%;
 }
 .myrole{
     font-size: 25px;
@@ -66,10 +66,15 @@ nav{
     font-family: 'Montserrat', sans-serif;
     margin-top: 40px;
 }
+.problemstatement{
+    position: relative;
+    text-align: right;
+    width: 100%;
+}
 .problemstatementtitle{
     text-align: center;
     font-family: 'Montserrat', sans-serif;
-    margin-top: 15px;
+    padding-top: 20px;
     font-size: 30px;
 }
 .statement{
@@ -90,7 +95,7 @@ nav{
     font-size: 30px;
     font-family: 'Montserrat', sans-serif;
     width: 90%;
-    margin-left: 110px;
+    margin-left: 190px;
     
 }
 .researchprocess{
@@ -115,7 +120,7 @@ nav{
     position: relative;
     text-align: justify;
     font-size: 25px;
-    margin-left: 130px;
+    margin-left: 195px;
     font-family: 'Montserrat', sans-serif;
 }
 .list{
@@ -124,7 +129,7 @@ nav{
 }
 .finals{
     position: relative;
-    margin-left: 100px;
+    margin-left: 190px;
 } 
 .final{
     text-align: center;
